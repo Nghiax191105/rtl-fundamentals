@@ -13,9 +13,7 @@ The goal of this repository is to strengthen my understanding of RTL design, Ver
 ## Projects
 ### 1. 2-to-1 Multiplexer
 A combinational circuit that selects one of two input signals based on a select signal.
-Folder:
-
-`mux2to1/`
+Folder: `mux2to1/`
 
 Topics practiced:
 - Combinational logic
@@ -26,9 +24,7 @@ Topics practiced:
 ---
 ### 2. 4-bit Synchronous Counter
 A 4-bit counter that increments on each positive clock edge and uses a synchronous reset.
-Folder:
-
-`counter4bit/`
+Folder: `counter4bit/`
 
 Topics practiced:
 - Sequential logic
@@ -39,10 +35,8 @@ Topics practiced:
 ---
 ### 3. Simple Moore FSM
 A three-state finite state machine:
-`IDLE -> RUN -> DONE -> IDLE`
-Folder:
-
-`simple_fsm/`
+IDLE -> RUN -> DONE -> IDLE
+Folder: `simple_fsm/`
 
 Topics practiced:
 - Finite State Machine
@@ -58,9 +52,7 @@ The testbench verifies approximately:
 - 25% duty cycle
 - 50% duty cycle
 - 75% duty cycle
-Folder:
-
-`pwm_generator/`
+Folder: `pwm_generator/`
 
 Topics practiced:
 - PWM fundamentals
@@ -70,18 +62,4 @@ Topics practiced:
 - RTL simulation
 ## Simulation Flow
 Each exercise follows the same basic workflow:
-
-```text
-RTL Design
-    |
-    v
-Testbench
-    |
-    v
-Icarus Verilog Compilation
-    |
-    v
-Simulation
-    |
-    v
-VCD Wave
+RTL Design > Testbench > Icarus Verilog Compilation > Simulation > Simulation > VCD Wave
